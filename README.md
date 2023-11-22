@@ -1,7 +1,7 @@
 # XXL application
 
 How to compile:
-In the diretory of the repository, set the classpath:
+in the diretory of the repository, set the classpath:
 ```
 export CLASSPATH=$(pwd)/po-uilib/po-uilib.jar:$(pwd)/xxl-core/xxl-core.jar:$(pwd)/xxl-app/xxl-app.jar
 ```
