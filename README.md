@@ -1,14 +1,23 @@
 # XXL application
 
-At the beginning of development, the repository contains skeleton code for the application. 
-
-* Core: `xxl-core` contains the domain classes
-* Interaction: `xxl-app` contains the user interaction classes
-
-The names of the classes already present must be changed.
-Some classes must not be changed in any way, no matter the reason.
-See details on the course pages.
-
-Note that not all the code has to be working for all deliveries (penalties may apply).
-Check the evaluation conditions on the course pages.
+How to compile:
+In the diretory of the repository, set the classpath:
+```
+export CLASSPATH=$(pwd)/po-uilib/po-uilib.jar:$(pwd)/xxl-core/xxl-core.jar:$(pwd)/xxl-app/xxl-app.jar
+```
+Run manually:
+```
+make
+```
+Run tests:
+```
+./run_tests.sh
+```
+In case of
+> bash: ./run_tests.sh: Permission denied
+> 
+run:
+```
+chmod +x run_tests.sh
+```
 
